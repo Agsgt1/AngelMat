@@ -30,7 +30,9 @@ function exp(x, y) {
   return x ** y
 }
 
-dataload(exp(30, 8))
-d = data()
-dataunload()
-alert(add(multi(d, 7), div(d, exp(5, d))))
+function js() {
+  dataload(exp(30, 8))
+  d = data()
+  dataunload()
+  alert(add(multi(d, 7), div(d, exp(5, d))))
+}
