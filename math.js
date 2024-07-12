@@ -1,9 +1,9 @@
 function dataload(x) {
-  datav = x
+  var datav = x
 }
 
 function dataunload() {
-  datav = 0
+  var datav = 0
 }
 
 function data() {
@@ -28,6 +28,18 @@ function div(x, y) {
 
 function exp(x, y) {
   return x ** y
+}
+
+function equal(x, y) {
+  return x == y
+}
+
+function pi() {
+  return 3.14159
+}
+
+function sac(x, sac) {
+  return x / sac ** (x*0.1)
 }
 
 function js() {
